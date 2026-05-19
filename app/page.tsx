@@ -21,6 +21,7 @@ import {
   Zap
 } from "lucide-react";
 import { MotionLayer } from "@/components/MotionLayer";
+import TransformationSection from "@/components/TransformationSection";
 
 const services = [
   {
@@ -227,9 +228,9 @@ export default function Home() {
             <span className="eyebrow" data-hero>
               Managed digital credibility for SMEs
             </span>
-            <h1 data-hero>Your business deserves to look as credible online as it is in person.</h1>
+            <h1 data-hero>Your Business Should Look Credible, Online</h1>
             <p data-hero>
-              03 Design Studio builds and manages websites, hosting, social media, SEO, AEO, and growth infrastructure for small and medium businesses that want to be found, trusted, and chosen.
+              Transform with 03 Design Studios for all your digital presence services
             </p>
             <div className="hero-actions" data-hero>
               <a className="btn btn-primary" href="#pricing">
@@ -270,13 +271,15 @@ export default function Home() {
         </div>
       </section>
 
+      <TransformationSection />
+
       <section className="section band" id="services">
         <div className="container">
           <span className="eyebrow" data-reveal>
             What we manage
           </span>
           <h2 className="section-title" data-reveal>
-            The full digital front, handled without the tech overwhelm.
+            We Handle The Full Digital Front
           </h2>
           <p className="section-copy" data-reveal>
             Customers search before they trust. 03 Design Studio gives business owners the website, visibility, structure, and support they need to compete online while staying focused on the business itself.
@@ -310,7 +313,7 @@ export default function Home() {
             Website subscriptions
           </span>
           <h2 className="section-title" data-reveal>
-            Launch properly without carrying the whole cost upfront.
+            Launch Your Website Free of Charge
           </h2>
           <p className="section-copy" data-reveal>
             Monthly plans include hosting and management. If payments stop, hosting and management pause. After one year of maturity with 03 Design Studio, clients can buy out and migrate the website to personal hosting.
@@ -356,8 +359,11 @@ export default function Home() {
             Modular add-on services
           </span>
           <h2 className="section-title" data-reveal>
-            Start with the foundation. Add the growth layer when you are ready.
+            Build Your online foundation.
           </h2>
+          <p className="section-copy" data-reveal>
+            Start with the foundation. Add the growth layer when you are ready.
+          </p>
           <div className="addon-grid" style={{ marginTop: 34 }}>
             {addOns.map(([title, price, copy]) => (
               <article className="card" key={title} data-reveal>
@@ -380,8 +386,11 @@ export default function Home() {
               Exclusive advantage
             </span>
             <h2 className="section-title" data-reveal>
-              03 Design Studio builds your foundation. Gold Pyramid scales your brand.
+              03 Design Studio Builds, Gold Pyramid Scales.
             </h2>
+            <p className="section-copy" data-reveal>
+              03 Design Studio builds your foundation. Gold Pyramid scales your brand.
+            </p>
           </div>
           <div className="card" data-reveal>
             <p>
@@ -500,7 +509,7 @@ export default function Home() {
             </p>
             <p data-reveal>
               <Mail size={18} style={{ display: "inline", marginRight: 8, verticalAlign: "middle" }} />
-              info@03designstudios.com
+              info@03designstudio.online
             </p>
           </div>
           <form className="card form" data-reveal>
